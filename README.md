@@ -1,5 +1,8 @@
 # Django-Rest-Api
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)
+![Django](https://img.shields.io/badge/Django-5.0-green?style=flat&logo=django)
+
 This project is built using Django and Django Rest Framework (DRF) to provide a RESTful API for managing products, categories, and related functionality.
 
 ## Features
@@ -72,3 +75,26 @@ Create a .env file in the root of your project and add the following environment
 ```bash
 SECRET_KEY=your_secret_key
 ```
+
+### Structure of the project:
+
+├── core/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+├── myAPI/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── migrations/
+│   └── urls.py
+├── db.sqlite3
+├── manage.py
+├── .env
+├── requirements.txt
+└── README.md
+
