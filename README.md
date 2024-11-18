@@ -23,7 +23,7 @@ To get started, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/EmmaHarutyunyan/Django-Rest-Api.git
-
+```
 
 
 ### 2. Navigate to the project folder
@@ -31,25 +31,28 @@ After cloning, go into the project directory:
 
 ```bash
 cd Django-Rest-Api
+```
 
 ### 3. Set up a virtual environment
 It is recommended to use a virtual environment for Python projects. If you don't have `virtualenv` installed, you can install it by running:
 
 ```bash
 pip install virtualenv
-
+```
 
 Then, create and activate the virtual environment:
 
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 On Windows:
 
+```bash
 python -m venv venv
 .\venv\Scripts\activate
-
+```
 
 
 ### 4. Install requirements.txt
@@ -60,6 +63,7 @@ Install the required Python packages (including Django and Django Rest Framework
 ```bash
 
 pip install -r requirements.txt
+```
 
 ### 5. Set up environment variables
 
@@ -67,3 +71,4 @@ Create a .env file in the root of your project and add the following environment
 
 ```bash
 SECRET_KEY=your_secret_key
+```
