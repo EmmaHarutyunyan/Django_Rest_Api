@@ -77,7 +77,7 @@ SECRET_KEY=your_secret_key
 ```
 
 ### Structure of the project:
-
+```
 ├── core/
 │   ├── __init__.py
 │   ├── settings.py
@@ -97,4 +97,4 @@ SECRET_KEY=your_secret_key
 ├── .env
 ├── requirements.txt
 └── README.md
-
+```
